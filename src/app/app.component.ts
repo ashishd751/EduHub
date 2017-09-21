@@ -28,7 +28,7 @@ import { AppState } from './app.service';
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
+          <a class="navbar-brand" href="#"><strong>EduHub</strong></a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
@@ -56,21 +56,9 @@ import { AppState } from './app.service';
         </div><!--/.nav-collapse -->
       </div>
     </nav>
-
     <main>
       <router-outlet></router-outlet>
     </main>
-
-    <pre class="app-state">this.appState.state = {{ appState.state | json }}</pre>
-
-    <footer>
-      <span>WebPack Angular 2 Starter by <a [href]="url">Ashish</a></span>
-      <div>
-        <a [href]="url">
-          <img [src]="angularclassLogo" width="25%">
-        </a>
-      </div>
-    </footer>
   `
 })
 export class AppComponent implements OnInit {
